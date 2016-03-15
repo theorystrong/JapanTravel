@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32950FB61C98242B000A95AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32950FB51C98242B000A95AC /* AppDelegate.swift */; };
+		32950FB81C98242B000A95AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32950FB71C98242B000A95AC /* ViewController.swift */; };
+		32950FBB1C98242B000A95AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32950FB91C98242B000A95AC /* Main.storyboard */; };
+		32950FBD1C98242B000A95AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32950FBC1C98242B000A95AC /* Assets.xcassets */; };
+		32950FC01C98242B000A95AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32950FBE1C98242B000A95AC /* LaunchScreen.storyboard */; };
+		32950FCB1C98242B000A95AC /* japantravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32950FCA1C98242B000A95AC /* japantravelTests.swift */; };
+		32950FD61C98242B000A95AC /* japantravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32950FD51C98242B000A95AC /* japantravelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32950FC71C98242B000A95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32950FAA1C98242B000A95AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32950FB11C98242B000A95AC;
+			remoteInfo = japantravel;
+		};
+		32950FD21C98242B000A95AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32950FAA1C98242B000A95AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32950FB11C98242B000A95AC;
+			remoteInfo = japantravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32950FB21C98242B000A95AC /* japantravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = japantravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32950FB51C98242B000A95AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32950FB71C98242B000A95AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32950FBA1C98242B000A95AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32950FBC1C98242B000A95AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32950FBF1C98242B000A95AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32950FC11C98242B000A95AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32950FC61C98242B000A95AC /* japantravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = japantravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32950FCA1C98242B000A95AC /* japantravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japantravelTests.swift; sourceTree = "<group>"; };
+		32950FCC1C98242B000A95AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32950FD11C98242B000A95AC /* japantravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = japantravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32950FD51C98242B000A95AC /* japantravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japantravelUITests.swift; sourceTree = "<group>"; };
+		32950FD71C98242B000A95AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32950FAF1C98242B000A95AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32950FC31C98242B000A95AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32950FCE1C98242B000A95AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32950FA91C98242B000A95AC = {
+			isa = PBXGroup;
+			children = (
+				32950FB41C98242B000A95AC /* japantravel */,
+				32950FC91C98242B000A95AC /* japantravelTests */,
+				32950FD41C98242B000A95AC /* japantravelUITests */,
+				32950FB31C98242B000A95AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32950FB31C98242B000A95AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32950FB21C98242B000A95AC /* japantravel.app */,
+				32950FC61C98242B000A95AC /* japantravelTests.xctest */,
+				32950FD11C98242B000A95AC /* japantravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32950FB41C98242B000A95AC /* japantravel */ = {
+			isa = PBXGroup;
+			children = (
+				32950FB51C98242B000A95AC /* AppDelegate.swift */,
+				32950FB71C98242B000A95AC /* ViewController.swift */,
+				32950FB91C98242B000A95AC /* Main.storyboard */,
+				32950FBC1C98242B000A95AC /* Assets.xcassets */,
+				32950FBE1C98242B000A95AC /* LaunchScreen.storyboard */,
+				32950FC11C98242B000A95AC /* Info.plist */,
+			);
+			path = japantravel;
+			sourceTree = "<group>";
+		};
+		32950FC91C98242B000A95AC /* japantravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				32950FCA1C98242B000A95AC /* japantravelTests.swift */,
+				32950FCC1C98242B000A95AC /* Info.plist */,
+			);
+			path = japantravelTests;
+			sourceTree = "<group>";
+		};
+		32950FD41C98242B000A95AC /* japantravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32950FD51C98242B000A95AC /* japantravelUITests.swift */,
+				32950FD71C98242B000A95AC /* Info.plist */,
+			);
+			path = japantravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32950FB11C98242B000A95AC /* japantravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32950FDA1C98242B000A95AC /* Build configuration list for PBXNativeTarget "japantravel" */;
+			buildPhases = (
+				32950FAE1C98242B000A95AC /* Sources */,
+				32950FAF1C98242B000A95AC /* Frameworks */,
+				32950FB01C98242B000A95AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = japantravel;
+			productName = japantravel;
+			productReference = 32950FB21C98242B000A95AC /* japantravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32950FC51C98242B000A95AC /* japantravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32950FDD1C98242B000A95AC /* Build configuration list for PBXNativeTarget "japantravelTests" */;
+			buildPhases = (
+				32950FC21C98242B000A95AC /* Sources */,
+				32950FC31C98242B000A95AC /* Frameworks */,
+				32950FC41C98242B000A95AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32950FC81C98242B000A95AC /* PBXTargetDependency */,
+			);
+			name = japantravelTests;
+			productName = japantravelTests;
+			productReference = 32950FC61C98242B000A95AC /* japantravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32950FD01C98242B000A95AC /* japantravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32950FE01C98242B000A95AC /* Build configuration list for PBXNativeTarget "japantravelUITests" */;
+			buildPhases = (
+				32950FCD1C98242B000A95AC /* Sources */,
+				32950FCE1C98242B000A95AC /* Frameworks */,
+				32950FCF1C98242B000A95AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32950FD31C98242B000A95AC /* PBXTargetDependency */,
+			);
+			name = japantravelUITests;
+			productName = japantravelUITests;
+			productReference = 32950FD11C98242B000A95AC /* japantravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32950FAA1C98242B000A95AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "jyo-shoukyou";
+				TargetAttributes = {
+					32950FB11C98242B000A95AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = C92G6V345Q;
+					};
+					32950FC51C98242B000A95AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 32950FB11C98242B000A95AC;
+					};
+					32950FD01C98242B000A95AC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 32950FB11C98242B000A95AC;
+					};
+				};
+			};
+			buildConfigurationList = 32950FAD1C98242B000A95AC /* Build configuration list for PBXProject "japantravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32950FA91C98242B000A95AC;
+			productRefGroup = 32950FB31C98242B000A95AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32950FB11C98242B000A95AC /* japantravel */,
+				32950FC51C98242B000A95AC /* japantravelTests */,
+				32950FD01C98242B000A95AC /* japantravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32950FB01C98242B000A95AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32950FC01C98242B000A95AC /* LaunchScreen.storyboard in Resources */,
+				32950FBD1C98242B000A95AC /* Assets.xcassets in Resources */,
+				32950FBB1C98242B000A95AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32950FC41C98242B000A95AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32950FCF1C98242B000A95AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32950FAE1C98242B000A95AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32950FB81C98242B000A95AC /* ViewController.swift in Sources */,
+				32950FB61C98242B000A95AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32950FC21C98242B000A95AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32950FCB1C98242B000A95AC /* japantravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32950FCD1C98242B000A95AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32950FD61C98242B000A95AC /* japantravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32950FC81C98242B000A95AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32950FB11C98242B000A95AC /* japantravel */;
+			targetProxy = 32950FC71C98242B000A95AC /* PBXContainerItemProxy */;
+		};
+		32950FD31C98242B000A95AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32950FB11C98242B000A95AC /* japantravel */;
+			targetProxy = 32950FD21C98242B000A95AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32950FB91C98242B000A95AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32950FBA1C98242B000A95AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32950FBE1C98242B000A95AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32950FBF1C98242B000A95AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32950FD81C98242B000A95AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32950FD91C98242B000A95AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32950FDB1C98242B000A95AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = japantravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxiaoqiang.japantravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32950FDC1C98242B000A95AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = japantravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxiaoqiang.japantravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32950FDE1C98242B000A95AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = japantravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxiaoqiang.japantravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/japantravel.app/japantravel";
+			};
+			name = Debug;
+		};
+		32950FDF1C98242B000A95AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = japantravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxiaoqiang.japantravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/japantravel.app/japantravel";
+			};
+			name = Release;
+		};
+		32950FE11C98242B000A95AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = japantravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxiaoqiang.japantravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = japantravel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		32950FE21C98242B000A95AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = japantravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xuxiaoqiang.japantravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = japantravel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32950FAD1C98242B000A95AC /* Build configuration list for PBXProject "japantravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32950FD81C98242B000A95AC /* Debug */,
+				32950FD91C98242B000A95AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32950FDA1C98242B000A95AC /* Build configuration list for PBXNativeTarget "japantravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32950FDB1C98242B000A95AC /* Debug */,
+				32950FDC1C98242B000A95AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32950FDD1C98242B000A95AC /* Build configuration list for PBXNativeTarget "japantravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32950FDE1C98242B000A95AC /* Debug */,
+				32950FDF1C98242B000A95AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32950FE01C98242B000A95AC /* Build configuration list for PBXNativeTarget "japantravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32950FE11C98242B000A95AC /* Debug */,
+				32950FE21C98242B000A95AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32950FAA1C98242B000A95AC /* Project object */;
+}
